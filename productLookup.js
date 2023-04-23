@@ -18,7 +18,7 @@ async function sodaProductFetcher () {
                 `
                 <div id="productDisplay">
                     <div>
-                        <h1 class="productDisplayTitle">${data[i]["name"]}</h1>
+                        <h1>${data[i]["name"]}</h1>
                         <p>${data[i]["price_html"]}</p>
                         <p>${data[i]["description"]}</p>
                         <select>

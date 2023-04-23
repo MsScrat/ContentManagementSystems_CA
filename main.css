@@ -2,12 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header a {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-a:hover, .soda_on_sale:hover {
+a:hover,
+.soda_on_sale:hover {
     scale: 1.1;
 }
 
@@ -21,24 +26,21 @@ a:hover, .soda_on_sale:hover {
 
 #productDisplay {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 60px;
+    margin-top: 150px;
 }
 
 .productDisplayPicture {
     width: 100px;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
-.productDisplayTitle {
-    text-align: center;
-    margin-top: 100px;
-}
 
 #featured_product {
     width: 100%;
     height: 100%;
-    background-color: orange;
+    background-color: sandybrown;
     margin-bottom: 25px;
     margin-top: 25px;
     display: grid;
